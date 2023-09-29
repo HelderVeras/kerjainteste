@@ -1,0 +1,148 @@
+body {
+    background-color: #5679bd;
+    margin: 5% 3% 5% 3%;
+}
+
+main {
+    background-color: #f7f7f7;
+    border-top: 30px solid #f7f7f7;
+    border-left: 50px solid #f7f7f7;
+    border-bottom: 100px solid #f7f7f7;
+    border-right: 30px solid #f7f7f7;
+    box-shadow: 0em 0em 20px 1px rgb(44, 57, 95);
+    width: fit-content;
+    width: 1000px;
+    margin: auto;
+}
+
+.header {
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo {
+    
+    padding: 0% 3% 1% 4%;
+    font-size: 110%;
+    font-weight: 900;
+    color: #331428;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu {
+    
+    margin-left: 170px;
+}
+
+.login {
+    color: #331428;
+    margin-left: 180px;
+}
+
+a {
+    text-decoration: none;
+    color: #331428;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 16px;
+    font-size: 17px;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.corpo {
+    display: flex;
+    background-color: #f7f7f7;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img {
+    width: 400px;
+    height: 400px;
+    padding-top: 30px;
+    
+}
+
+img{
+    padding-top: 10%;  
+   
+}
+
+#slogan {
+    padding-left: 8%;
+    margin-top: 45px;
+    color: #331428;
+    width: 300px;
+    font-size: 45px;
+    
+}
+
+#frase {
+    width: 320px;
+    font-size: 15px;
+    color: #331428;
+    padding-left: 8%;
+    margin-top: -15px;
+    
+}
+
+.botao {
+    margin-top: 50px;
+}
+
+#botao {
+    font-size: 15px;
+    color: #f7f7f7;
+    background-color: rgb(221, 59, 118);
+    padding: 15px 35px 15px 35px;
+    margin-left: 30px;
+    border-radius: 12px;
+    position: relative;       
+}
+
+#botao::after {
+    content: "";
+    position: absolute;    
+    border: 2px solid #000;
+    width: 98%;
+    height: 95%;
+    left: -5px;
+    top: -5px;
+    border-radius: 12px;   
+}
+
+#botao:hover{
+    text-decoration: none;
+    font-weight:unset;
+    background-color: rgba(209, 11, 84, 0.918);
+    box-shadow: inset 0rem 0em 7px 3px rgb(141, 40, 77);
+}
+
+#login {
+    font-size: 16px;
+    padding: 17px 30px 17px 30px;
+    border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 0em 0em 3px 1px black;
+}
+
+#login:hover {
+    text-decoration: none;
+    font-weight:unset;
+    box-shadow: inset 0em 0em 5px 2px rgb(221, 59, 118);
+}
+
+@media (max-width: 900px) {
+
+    main {width: 80%;}
+    .corpo {display: block;}
+    .menu{display: none;}
+    .img {width: 100%;}
+    .corpo img {width: 100%;}
+    .login {margin-left: 100px;}
+    }
